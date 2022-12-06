@@ -76,11 +76,16 @@ other class types.
 
 ### Implications
 ***
-A decision comes with many implications, as the REMAP metamodel denotes. For example, a decision might introduce a 
-need to make other decisions, create new requirements, or modify existing requirements; pose additional constraints to ]
-the environment; require renegotiating scope or schedule with customers; or require additional staff training.
-Clearly understanding and stating the implications of the decision will be very effective in gaining buy-in and creating 
-a roadmap for architecture execution.
+Resources will need to be secured in order to properly configure the Mobile Application class type. 
+
+Metamodel documentation will need to account for the addition of the Mobile Application class type.
+
+Current mobile applications loaded only account for attributes that may be specific to iOS-based Mobile Applications. 
+Configuration of class type may need to be revisited if additional OS's are to be accounted for.
+
+Data within this class type will be manually imported and/or added by DXC Staff. Enterprise Architecture may want to 
+account for the possibility of this load eventually being automated, depending on how/if the volume of data changes 
+over time.
 
 ### Related Decisions
 ***
