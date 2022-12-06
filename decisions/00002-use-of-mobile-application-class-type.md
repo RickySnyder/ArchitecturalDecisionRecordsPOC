@@ -52,11 +52,18 @@ ServiceNow instance. Regardless of the decision, development work will be requir
 
 ### Positions
 ***
-Lis the positions (viable options or alternatives) considered. These often require long explanations, sometimes even
-models and diagrams. This isn't an exhaustive list. However, you don't want to hear the question "Did you think about...?"
-during a final review; this leads to loss of credibility and questioning of other architectural decisions. This sections 
-also helps ensure that options' of others were heard; explicitly stating other opinions helps enroll their advocacy in 
-the decision. 
+2 Primary Positions
+
+##### Position A. The Mobile Application Class Type Should be Leveraged
+* UPM-X already has a Class Type specifically built for Mobile Applications
+* The needs associated with managing Mobile Applications differ from those presented through other class types
+* IT is rapidly transforming -- use of Mobile Applications will likely only increase; let's get ahead of it before we're forced to account for it
+* Forms and other attributes will specifically pertain to Mobile Applications; avoiding the issue of an abundance of unnecessary columns/fields for Mobile Applications if they're classified elsewhere. 
+
+##### Position B. An Existing Class Type should be used to account for Mobile Application records
+* We haven't used other out-of-the-box UPM-X Class Types; Thus, we don't have to use something just because it's available
+* Notating that a particular record is a mobile application could be notated through a 'type' attribute within an existing class type
+* The more class types we add to our metamodel, the murkier the differentiation between existing class types become
 
 ### Argument
 ***
