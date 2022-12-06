@@ -17,12 +17,13 @@ Stakeholder has surfaced use case with following needs pertaining to managing Mo
 Mobile Application class type will be added to the EA Metamodel and used as the mechanism to store Mobile 
 Application data.
 
+### Status
+***
+Approved
+
 ### Group
 ***
-You can use a simple grouping -- such as integration, presentation, data, and so on -- to help organize the set of decisions.
-You could also use a more sophisticated architecture ontology, such as John Kyaruzi and Jan van Katwijk's, which include
-more abstract categories such as event, calendar, and location. For example, using this ontology, you'd group decisions
-that deal with occurrences where the system requires information under event.
+Metamodel Class Types
 
 ### Assumptions
 ***
