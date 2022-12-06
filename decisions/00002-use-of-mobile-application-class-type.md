@@ -4,12 +4,17 @@ _Date: 2022-12-05_
 
 ### Issue
 ***
-Describe the architectural design issue you're addressing, leaving no questions about why you're addressing this issue now.
-Following a minimalist approach, address and document only the issues that need addressing at various points in the life cycle.
+There is not an established mechanism to classify mobile applications within the Intermountian Healthcare EA Metamodel.
+
+Stakeholder has surfaced use case with following needs pertaining to managing Mobile Applications:
+* Tracking security approval
+* Tracking associated cost(s)
+* Associating mobile applications with certain use cases and/or responsible owners
+* Managing a centralized list of 'approved' Mobile Applications
 
 ### Decision
 ***
-The Mobile Application class type will be added to the EA Metamodel and used as the mechanism to store Mobile 
+Mobile Application class type will be added to the EA Metamodel and used as the mechanism to store Mobile 
 Application data.
 
 ### Group
