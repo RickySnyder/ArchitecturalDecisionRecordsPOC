@@ -36,7 +36,19 @@ This is due to multiple reasons:
 
 ### Constraints
 *** 
-Capture any additional constraints to the environment that the chosen alternative (the decision) might pose.
+Development work associated with ServiceNow is currently sparse, as Intermountain prepares for new 'Greenfield' 
+ServiceNow instance. Regardless of the decision, development work will be required.
+
+#### If the Mobile Application Class is not used:
+- We may end up stifling the flexibility provided by the out-of-box Ins-Pi class types to quickly meet the needs of new use cases.
+- Creating reports of Mobile Application records becomes more complicated if they're not in their own class type.
+- How the DXC Team responsible for managing mobile applications may be hindered, as data attributes Pre-Existing class types won't reflect their specific needs.
+  - Impacts how the DXC team Manages the Data
+  - Impacts the Data Quality not reflecting the specific needs of Mobile Application records 
+
+#### If the Mobile Application Class is used:
+- Other Metamodel Types will need to account for the relationship(s) it may have with the Mobile Application class type.
+- The distinction between Business Application, Software Product, Software Program, and now Mobile Application may be confusing to users of UPM-X.
 
 ### Positions
 ***
