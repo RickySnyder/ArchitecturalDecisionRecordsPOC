@@ -80,6 +80,8 @@ Resources will need to be secured in order to properly configure the Mobile Appl
 
 Metamodel documentation will need to account for the addition of the Mobile Application class type.
 
+Relationships between the Mobile Application & other pre-existing Class Types need to be established and documented.
+
 Current mobile applications loaded only account for attributes that may be specific to iOS-based Mobile Applications. 
 Configuration of class type may need to be revisited if additional OS's are to be accounted for.
 
@@ -89,9 +91,17 @@ over time.
 
 ### Related Decisions
 ***
-It's obvious that many decisions are related; these can be listed here. However, it has been found in practice, a 
-traceability matrix, decision trees, or metamodels are more useful. Metamodel are useful for showing complex 
-relationships diagrammatically (such as Rose models).
+Decision 1: Use Mobile Application Class Type to store Mobile Application data
+
+Decision 1.A: DXC Staff will Manage/Govern Mobile Application Class Type Records in a manual manner for the meanwhile.
+
+Decision 1.B: Mobile Application Class Type will have relationships with the following class types: Business Capability, Technical Capability, Business Application.
+
+Decision 1.B.1: Relationship between Mobile Application and Business Capability is: Mobile Application > _provides_ > Business Capability; Business Capability > _is provided by_ > Mobile Application
+
+Decision 1.B.2: Relationship between Mobile Application and Technical Capability is: Mobile Application > _provides_ > Technical Capability; Technical Capability > _is provided by_ > Mobile Application
+
+Decision 1.B.3: Relationship between Mobile Application and Business Application is: Mobile Application > _is used by_ > Business Application; Business Application > _uses_ > Mobile Application
 
 ### Related Requirements
 ***
@@ -112,6 +122,7 @@ _[EA Metamodel Designer Diagram](https://intermountain.service-now.com/x_inpgh_d
 ### Related Principles
 ***
 _Example Principle: Forward Thinking Architecture_
+
 _Example Principle 2: Out-of-Box Thinking_
 
 ### Notes
