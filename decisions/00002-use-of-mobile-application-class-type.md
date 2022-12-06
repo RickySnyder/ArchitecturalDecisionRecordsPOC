@@ -27,9 +27,12 @@ Metamodel Class Types
 
 ### Assumptions
 ***
-Clearly describe the underlying assumptions in the environment in which you're the making the decision -- cost, schedule, 
-technology, and so on. Note that the environmental constraints (such as accepted technology standards, enterprise architecture, 
-commonly employed patterns, and so on) might limit the alternatives you consider.
+There seems to be no 100% correct way in which to account for mobile applications in current iteration of EA Metamodel.
+
+This is due to multiple reasons:
+* Regardless of classification, development resources will be required.
+* Governance associated with Mobile Applications may or may not be different from pre-existing class types.
+* Reporting on Mobile Applications changes depending upon the way in which the records are classified.
 
 ### Constraints
 *** 
