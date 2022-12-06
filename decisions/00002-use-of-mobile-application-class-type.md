@@ -103,12 +103,14 @@ make that decision.
 
 ### Related Artifacts
 ***
-List the related architecture, design, or scope documents that this decision impacts. 
+_[EA Metamodel Wiki/Knowledge Documentation](https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.wiki/tab::7c7d56ca-fb99-46e8-ac46-71368df0e073?context=%7B%22subEntityId%22%3A%22%7B%5C%22pageId%5C%22%3A73%2C%5C%22origin%5C%22%3A2%7D%22%2C%22channelId%22%3A%2219%3A84a8ab9c3aee4c859244a88840760d6e%40thread.skype%22%7D&tenantId=a79016de-bdd0-4e47-91f4-79416ab912ad)_
+
+_[EA Metamodel Designer Diagram](https://intermountain.service-now.com/x_inpgh_des_designer.do?diagram_sys_id=a77904e1db3819506e11ee0c13961989&present=1)_
 
 ### Related Principles
 ***
-If the enterprise has an agreed-upon set of principles, make sure the decision is consistent with one or more of them. 
-This helps ensure alignment along domains or systems.
+_Example Principle: Forward Thinking Architecture_
+_Example Principle 2: Out-of-Box Thinking_
 
 ### Notes
 ***
