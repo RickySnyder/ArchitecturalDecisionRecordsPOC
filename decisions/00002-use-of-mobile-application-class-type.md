@@ -67,8 +67,12 @@ ServiceNow instance. Regardless of the decision, development work will be requir
 
 ### Argument
 ***
-Outline why the position was selected, including items such as implementation cost, total ownership cost, time to market, 
-and required development resources' availability. This is probably as important as the decision itself.
+As above.
+
+The model can account for this now, before the demand for tracking Mobile Application data potentially increases. 
+By separating Mobile Applications into their own class type, the reporting (Data Quality) associated with those records
+becomes much easier to govern and manage; as compared to the alternative option of managing these records from within
+other class types.
 
 ### Implications
 ***
