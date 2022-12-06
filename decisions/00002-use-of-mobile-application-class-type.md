@@ -127,5 +127,13 @@ _Example Principle 2: Out-of-Box Thinking_
 
 ### Notes
 ***
-Because the decision-making process can take weeks, it may be useful to capture notes and issues that the team discusses
-during the socialization process.
+Class type considered as alternative was primarily Software Product. 
+
+DXC Staff reaching out provides solid use case for further Mobile Application evolution; current iteration only accounts for iOS-based applications.
+
+Groups needs are primarily:
+- Tracking Security Approval/Status
+- Tracking Associated Cost
+- Ensuring all 'non-free' apps should have a cost against them
+- Use Case defined and associated to mobile application
+- To manage centralized list of 'approved' applications
