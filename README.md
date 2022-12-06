@@ -1,6 +1,6 @@
 ![Intermountain Healthcare logo](IHC_LOGO.png "Intermountain Healthcare Logo")
 
-# <span style = "color:#24446C">Enterprise Architecture | Architecture Decision Record (ADR)</span>
+# <span style = "color:#24446C">Enterprise Architecture | Architecture Decision Record (ADR) Proof of Concept</span>
 
 The following is a Proof of Concept (POC) for Intermountain Healtchare's Enterprise Architecture team to consider 
 leveraging a repository to formally document decisions made as they pertain to the Intermountain Healthcare EA Metamodel.
