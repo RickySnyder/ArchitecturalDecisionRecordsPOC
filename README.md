@@ -2,10 +2,6 @@
 
 # <span style = "color:#24446C">Enterprise Architecture | Architecture Decision Record (ADR)</span>
 
-#### <hr style = "border:2px solid #07387C" />
-
-[//]: # (Alternative IHC Blue Hex Color Code: #5085CE)
-
 The following is a Proof of Concept (POC) for Intermountain Healtchare's Enterprise Architecture team to consider 
 leveraging a repository to formally document decisions made as they pertain to the Intermountain Healthcare EA Metamodel.
 
