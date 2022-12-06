@@ -95,11 +95,13 @@ relationships diagrammatically (such as Rose models).
 
 ### Related Requirements
 ***
-Decisions should be business driven. To show accountability, explicitly map your decisions to the objectivevs or 
-requirements. You can enumerate these related requirements here, but it may be more convenient to reference a
-traceability matrix. You can assess each architecture decision's contribution to meeting each requirement, and then assess
-how well the requirement is met across all decisions. If a decision doesn't contribute to meeting a requirement, don't 
-make that decision.
+_Requirement 1: Managing Mobile Applications_ 
+
+_Requirement 2: Reporting on Mobile Application Data_
+
+_Requirement 3: Data Quality on Class Type_
+
+_Requirement 4: Class Type Addition to Metamodel_
 
 ### Related Artifacts
 ***
